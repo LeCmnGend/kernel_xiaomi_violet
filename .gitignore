@@ -139,3 +139,4 @@ Android.bp
 
 # Ignore out dir
 out
+*.zip
