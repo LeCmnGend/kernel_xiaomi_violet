@@ -41,7 +41,7 @@ fi
 DEFCONFIG="vendor/violet-perf_defconfig"
 SECONDS=0 # builtin bash timer
 ZIPNAME="FuAnDo-Violet-$(date '+%Y%m%d-%H%M').zip"
-export PROC="-j$(nproc --all)"
+export PROC="-j$(nproc --all - 2)"
 
 # Setup ccache environment
 export USE_CCACHE=1
